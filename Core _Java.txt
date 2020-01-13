@@ -663,12 +663,12 @@ Constructors:
 	1. Same name as that of class name
 	2. Does not have a return type.
 	3. Invokled automatically
-	4. They can be either public or default , but can be private in some special cases
+	4. They can be either public or default , but can be private in some special cases , but never ever protected.
 	5. These are the property of a class, so can not be inherited.
 	6. These can not be overrided.
 	7. Constructors can be overloaded
 	8. They can never be static
-	
+	9.Constructors are object members
 	
 	Need:
 	    1. Constructors are used to initialize the instance variables

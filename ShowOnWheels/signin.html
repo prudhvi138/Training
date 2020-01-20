@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Create An Account</title>
+    <link type="text/css" rel="stylesheet" href="ExternalStylesheet\homestylesheet.css" />
+    <style>
+        body {
+            background-color: D51165;
+            background-image: url('background.gif');
+            background-repeat: repeat-x;
+        }
+    </style>
+    <script>
+        function check() {
+            var name = document.getElementById("name").value;
+            var password = document.getElementById("password").value;
+            window.alert("username\n" + name + "\npassword\n" + password);
+
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div style="width: 300px;  margin-top: 80px; margin-left: 200px; margin-right: auto">
+
+        <form>
+            <label
+                for="Name"><b>Name</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="name" placeholder="Enter Name" name="Name" required><br>
+
+            <label
+                for="psw"><b>Password</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="password" id="password" placeholder="Enter Password" name="psw" required><br>
+
+            <button type="submit" class="signupbtn" onclick="check()">Sign In</button>
+
+        </form>
+</body>
+
+</html>

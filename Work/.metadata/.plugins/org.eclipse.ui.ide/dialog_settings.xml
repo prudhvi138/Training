@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Lenovo\Downloads\CollectionActivity"/>
+		<item value="C:\Users\Lenovo\Downloads\CollectionActivity\src\com\cts\activity"/>
+		<item value="C:\Users\Lenovo\Downloads\CollectionActivity\src\com\cts\activity\main"/>
+		<item value="C:\Users\Lenovo\Downloads\CollectionActivity\src\com\cts\activity\daoimpl"/>
+		<item value="C:\Users\Lenovo\Downloads\CollectionActivity\src\com\cts\activity\bean"/>
+		<item value="C:\Users\Lenovo\Desktop\java_training\Work\CollectionActivity\src"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Lenovo\Downloads\HibernateDemo"/>
+			<item value="C:\Users\Lenovo\Desktop\HibernateDemo"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

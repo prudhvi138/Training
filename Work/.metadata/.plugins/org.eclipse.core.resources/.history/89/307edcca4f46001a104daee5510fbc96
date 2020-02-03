@@ -1,0 +1,30 @@
+package com.cts.training.model;
+
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+import javax.persistence.PrimaryKeyJoinColumn;
+import javax.persistence.PrimaryKeyJoinColumns;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "permanent")
+//@DiscriminatorValue(value ="PE")
+@PrimaryKeyJoinColumns(name = "emp_id")
+public class PermanentEmployee extends Employee {
+	private double salary;
+	private float bonus;
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	public float getBonus() {
+		return bonus;
+	}
+	public void setBonus(float bonus) {
+		this.bonus = bonus;
+	}
+	
+
+}

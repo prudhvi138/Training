@@ -1,0 +1,28 @@
+package com.cts.training.model;
+
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+import javax.persistence.PrimaryKeyJoinColumn;
+import javax.persistence.Table;
+@Entity
+@Table(name = "contractor")
+//@DiscriminatorValue(value = "CE")
+@PrimaryKeyJoinColumn(name = "emp_id")
+public class ContractorEmployee extends Employee {
+		private double PayPerHour;
+		private float ContractPeriod;
+		public double getPayPerHour() {
+			return PayPerHour;
+		}
+		public void setPayPerHour(double payPerHour) {
+			PayPerHour = payPerHour;
+		}
+		public float getContractPeriod() {
+			return ContractPeriod;
+		}
+		public void setContractPeriod(float contractPeriod) {
+			ContractPeriod = contractPeriod;
+		}
+
+		
+}

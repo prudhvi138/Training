@@ -1,0 +1,13 @@
+package com.cts.training.model;
+
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+@Entity
+@Table(name = "employee")
+@DiscriminatorValue(value = "CE")
+public class ContractorEmployee extends Employee {
+		private double PayPerHour;
+		private float ContractPeriod;
+
+}
